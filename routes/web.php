@@ -76,3 +76,7 @@ Route::get('js/lang.ok', ['as' => 'assets.lang', 'uses' => 'LanguageController@g
 // Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
